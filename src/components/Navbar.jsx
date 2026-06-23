@@ -47,9 +47,7 @@ export default function Navbar() {
             >{l}</a>
           ))}
           <a
-            href="/Sharan_Harsoor_Resume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="mailto:sharanharsoor@gmail.com?subject=Resume Request&body=Hi Sharan, I'd like to request your resume."
             style={{
               padding: '0.45rem 1.1rem',
               border: '1px solid rgba(56,189,248,0.5)',
@@ -102,7 +100,7 @@ export default function Navbar() {
               {links.map(l => (
                 <a key={l} href={href(l)} onClick={() => setOpen(false)} style={{ color: '#94a3b8', textDecoration: 'none', fontSize: '1rem', fontWeight: 500 }}>{l}</a>
               ))}
-              <a href="/Sharan_Harsoor_Resume.pdf" target="_blank" rel="noopener noreferrer" style={{ color: '#38bdf8', textDecoration: 'none', fontSize: '1rem', fontWeight: 500 }}>Resume ↗</a>
+              <a href="mailto:sharanharsoor@gmail.com?subject=Resume Request&body=Hi Sharan, I'd like to request your resume." style={{ color: '#38bdf8', textDecoration: 'none', fontSize: '1rem', fontWeight: 500 }}>Resume ↗</a>
             </div>
           </motion.div>
         )}

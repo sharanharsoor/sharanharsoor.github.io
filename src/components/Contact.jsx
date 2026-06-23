@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { FiMail, FiLinkedin, FiGithub, FiMapPin, FiDownload } from 'react-icons/fi';
+import { FiMail, FiLinkedin, FiGithub, FiMapPin } from 'react-icons/fi';
 import { SiMedium, SiKaggle } from 'react-icons/si';
 import { personal } from '../data/portfolio';
 
@@ -87,9 +87,7 @@ export default function Contact() {
           style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem' }}
         >
           <a
-            href="/Sharan_Harsoor_Resume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="mailto:sharanharsoor@gmail.com?subject=Resume Request&body=Hi Sharan, I'd like to request your resume."
             style={{
               display: 'inline-flex', alignItems: 'center', gap: '0.6rem',
               padding: '0.8rem 2rem',
@@ -101,7 +99,7 @@ export default function Contact() {
             onMouseEnter={e => e.currentTarget.style.background = 'linear-gradient(135deg, rgba(56,189,248,0.25), rgba(129,140,248,0.25))'}
             onMouseLeave={e => e.currentTarget.style.background = 'linear-gradient(135deg, rgba(56,189,248,0.15), rgba(129,140,248,0.15))'}
           >
-            <FiDownload size={16} /> Download Resume
+            <FiMail size={16} /> Request Resume
           </a>
 
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', color: '#334155', fontSize: '0.82rem' }}>
