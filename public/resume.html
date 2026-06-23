@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume — Sharan Harsoor</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      min-height: 100vh;
+      background: #060912;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      color: #f1f5f9;
+      padding: 2rem;
+    }
+    .card {
+      max-width: 480px;
+      width: 100%;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(56,189,248,0.2);
+      border-radius: 16px;
+      padding: 3rem 2.5rem;
+      text-align: center;
+    }
+    .back {
+      display: inline-block;
+      margin-bottom: 2rem;
+      color: #64748b;
+      text-decoration: none;
+      font-size: 0.85rem;
+      transition: color 0.2s;
+    }
+    .back:hover { color: #38bdf8; }
+    h1 {
+      font-size: 1.6rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+      letter-spacing: -0.02em;
+    }
+    .sub {
+      color: #64748b;
+      font-size: 0.95rem;
+      line-height: 1.7;
+      margin-bottom: 2rem;
+    }
+    .email-box {
+      background: rgba(56,189,248,0.06);
+      border: 1px solid rgba(56,189,248,0.25);
+      border-radius: 10px;
+      padding: 1rem 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .email-label {
+      font-size: 0.72rem;
+      color: #38bdf8;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      margin-bottom: 0.4rem;
+    }
+    .email-addr {
+      font-size: 1.05rem;
+      color: #f1f5f9;
+      font-weight: 600;
+      letter-spacing: 0.01em;
+    }
+    .copy-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-top: 1rem;
+      padding: 0.6rem 1.4rem;
+      background: rgba(56,189,248,0.1);
+      border: 1px solid rgba(56,189,248,0.3);
+      border-radius: 8px;
+      color: #38bdf8;
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+      outline: none;
+    }
+    .copy-btn:hover { background: rgba(56,189,248,0.2); }
+    .note {
+      margin-top: 1.5rem;
+      font-size: 0.8rem;
+      color: #334155;
+      line-height: 1.6;
+    }
+    .portfolio-link {
+      display: inline-block;
+      margin-top: 2rem;
+      color: #38bdf8;
+      text-decoration: none;
+      font-size: 0.85rem;
+    }
+    .portfolio-link:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <a href="/" class="back">← Back to portfolio</a>
+    <h1>Request My Resume</h1>
+    <p class="sub">
+      I share my resume directly with people I'm speaking with.<br/>
+      Drop me an email and I'll respond promptly.
+    </p>
+
+    <div class="email-box">
+      <div class="email-label">Email</div>
+      <div class="email-addr">sharanharsoor@gmail.com</div>
+    </div>
+
+    <button class="copy-btn" onclick="copyEmail()">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+      <span id="copy-label">Copy email address</span>
+    </button>
+
+    <p class="note">
+      Mention the role or opportunity you have in mind — I'll send my resume along with any relevant context about my work.
+    </p>
+
+    <a href="/" class="portfolio-link">View my portfolio →</a>
+  </div>
+
+  <script>
+    function copyEmail() {
+      navigator.clipboard.writeText('sharanharsoor@gmail.com').then(() => {
+        const label = document.getElementById('copy-label');
+        label.textContent = 'Copied!';
+        setTimeout(() => label.textContent = 'Copy email address', 2000);
+      });
+    }
+  </script>
+</body>
+</html>

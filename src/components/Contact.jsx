@@ -87,7 +87,7 @@ export default function Contact() {
           style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem' }}
         >
           <a
-            href="mailto:sharanharsoor@gmail.com?subject=Resume Request&body=Hi Sharan, I'd like to request your resume."
+            href="/resume.html"
             style={{
               display: 'inline-flex', alignItems: 'center', gap: '0.6rem',
               padding: '0.8rem 2rem',
