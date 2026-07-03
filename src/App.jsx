@@ -2,6 +2,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
 import Experience from './components/Experience';
+import Projects from './components/Projects';
 import Research from './components/Research';
 import OpenSource from './components/OpenSource';
 import Writing from './components/Writing';
@@ -17,6 +18,7 @@ export default function App() {
         <Hero />
         <About />
         <Experience />
+        <Projects />
         <Research />
         <OpenSource />
         <Writing />
