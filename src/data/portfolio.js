@@ -28,7 +28,7 @@ export const skills = {
   "Agentic AI & LLMs": ["LangChain", "LangGraph", "LlamaIndex", "HuggingFace", "OpenAI API", "Vertex AI", "RAG Pipelines", "MCP (Model Context Protocol)", "Agentic Workflows", "Prompt Engineering", "LLM Fine-tuning"],
   "ML / Deep Learning": ["PyTorch", "TensorFlow/Keras", "scikit-learn", "XGBoost", "NumPy", "Pandas", "Anomaly Detection", "Time Series Forecasting", "Statistical Modeling", "Reinforcement Learning", "NLP"],
   "Security AI": ["Ransomware Detection", "Cybersecurity AI", "Data Security", "Threat Intelligence", "Anomaly Detection Systems", "Cyber Recovery"],
-  "Vector & Retrieval": ["pgvector", "Chroma", "Pinecone", "Semantic Chunking", "Cross-Encoder Re-ranking", "Embeddings", "Vector Search"],
+  "Vector & Retrieval": ["pgvector", "Qdrant", "Chroma", "Pinecone", "Semantic Chunking", "Cross-Encoder Re-ranking", "Embeddings", "Vector Search", "Hybrid Retrieval (Dense + Sparse)"],
   "Data Engineering & ETL": ["Apache Spark", "PySpark", "Apache Kafka", "ETL Pipelines", "Azure Data Factory", "Data Pipelines", "Distributed Systems"],
   "MLOps & Infra": ["FastAPI", "Docker", "Kubernetes", "MLflow", "REST APIs", "CI/CD", "Microservices"],
   "Cloud": ["Google Cloud (Vertex AI)", "Microsoft Azure", "AWS"],
@@ -44,10 +44,10 @@ export const experience = [
     location: "Bengaluru, India",
     color: "#ee0000",
     highlights: [
-      "Designed and deployed an MCP-integrated agentic SKU lookup system serving 10,000+ Red Hat sales representatives, enabling intelligent retrieval across 20,000+ product SKUs",
-      "Architected production RAG pipelines integrating multiple heterogeneous data sources via Model Context Protocol (MCP), forming the retrieval backbone of an enterprise-grade AI assistant",
-      "Developed and open-sourced chunking-strategy — demonstrating 40–60% retrieval accuracy improvement via semantic-aware segmentation; adopted externally by startups",
-      "Filed patent at Red Hat: 'Predictive Context Degradation: Multi Signal Trajectory Analysis for Proactive Context Management in LLM Agents' (pending USPTO)",
+      "Designing and deploying MCP-integrated agentic AI systems for large-scale enterprise operations — multi-source retrieval, intelligent lookup, and context-aware responses across complex internal data",
+      "Architecting production RAG pipelines integrating heterogeneous data sources via Model Context Protocol (MCP), forming the backbone of an enterprise-grade AI assistant",
+      "Developed and open-sourced chunking-strategy demonstrating 40–60% retrieval accuracy improvement via semantic-aware segmentation; adopted externally by startups",
+      "Filed invention disclosure: 'Predictive Context Degradation in LLM Agents' (pending USPTO)",
     ],
     stack: ["LangChain", "LangGraph", "Vertex AI", "pgvector", "MCP", "React", "FastAPI", "Python"],
   },
@@ -198,6 +198,19 @@ export const education = [
   { degree: "Master of Science, Data Science", school: "University of Arizona", period: "2021–2023", gpa: "3.889 / 4.00", location: "Tucson, AZ, USA", highlight: "Perfect 4.0 in ML, Neural Networks, Applied NLP, Data Mining, Cloud Analytics" },
   { degree: "Reinforcement and Deep Reinforcement Learning", school: "Indian Institute of Science (IISc)", period: "2021–2022", gpa: "B+", location: "Bangalore, India", highlight: "CCE Certification from India's premier research institution" },
   { degree: "Bachelor of Engineering", school: "B.M.S. College of Engineering", period: "2009–2013", gpa: "8.44 / 10", location: "Bangalore, India", highlight: "One of the top engineering colleges in Karnataka" },
+];
+
+export const projects = [
+  {
+    name: "AntarDarshan",
+    tagline: "Inner Vision Through Ancient Wisdom",
+    description: "Production RAG system over 54 classical Indian philosophy texts — Upanishads, Bhagavad Gita, Mahabharata, Pali Canon, and more. Citation-grounded answers, reading library, highlights, bookmarks, and a community wisdom wall.",
+    link: "https://antardarshan.org",
+    github: "https://github.com/sharanharsoor/antardarshan",
+    stats: ["54 texts", "20,369 chunks", "6 traditions", "92% retrieval eval", "600 tests"],
+    stack: ["BGE-M3 (hybrid dense + sparse)", "Cross-Encoder Reranker", "Qdrant", "FastAPI", "Next.js", "Supabase", "LangFuse", "Hetzner + Vercel"],
+    highlight: "Built solo, end-to-end, from corpus curation to production deployment at $6/month.",
+  },
 ];
 
 export const awards = [
