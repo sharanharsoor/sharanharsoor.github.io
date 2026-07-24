@@ -116,12 +116,21 @@ export default function Hero() {
 
             <motion.p
               initial={{ opacity:0, y:20 }} animate={{ opacity:1, y:0 }} transition={{ duration:0.6, delay:0.4 }}
-              style={{ fontSize:'1.05rem', lineHeight:1.8, color:'#94a3b8', marginBottom:'2.5rem', maxWidth:560 }}
+              style={{ fontSize:'1.05rem', lineHeight:1.8, color:'#94a3b8', marginBottom:'2.5rem', maxWidth:580 }}
             >
-              Building AI systems that ship to production. Inventor on{' '}
-              <strong style={{ color:'#38bdf8' }}>9 patents</strong>,{' '}
-              international conference speaker, and creator of open-source AI libraries
-              used by startups globally.
+              I build AI systems that ship to production and solve real problems at scale.
+              At Red Hat I architect{' '}
+              <strong style={{ color:'#e2e8f0' }}>agentic AI and RAG pipelines</strong>{' '}
+              serving enterprise operations. At Cohesity I led a team of 8 engineers to deliver the
+              company's first customer-facing GenAI product, cutting detection time by{' '}
+              <strong style={{ color:'#38bdf8' }}>87%</strong>.
+              Inventor on <strong style={{ color:'#38bdf8' }}>9 patents</strong>, international
+              conference speaker, and builder of{' '}
+              <a href="https://antardarshan.org" target="_blank" rel="noopener noreferrer"
+                style={{ color:'#c084fc', textDecoration:'none', fontWeight:600 }}>
+                AntarDarshan
+              </a>
+              {' '}— a production AI system live at scale.
             </motion.p>
 
             {/* Stats */}
