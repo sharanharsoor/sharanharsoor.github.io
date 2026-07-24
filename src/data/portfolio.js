@@ -113,13 +113,13 @@ export const patents = [
 export const publications = [
   {
     title: "AmbiguityBench: A Decision-Theoretic Diagnostic Suite for Evaluating LLM Behavior Under Uncertainty",
-    venue: "NeurIPS 2026 — Under Review",
+    venue: "In preparation — targeting 2027 conference submission",
     description: "Benchmark of 22,680 experimental trials across 9 frontier models (Google, DeepSeek, Anthropic). Introduces the novel Ambiguity Premium (AP) metric. Full open artifact release.",
     tags: ["LLM Evaluation", "Decision Theory", "Benchmark"],
   },
   {
     title: "Reasoning and Ambiguity Sensitivity in Frontier LLMs: A Cross-Provider Behavioral Audit",
-    venue: "NeurIPS 2026 — Under Review",
+    venue: "In preparation — targeting 2027 conference submission",
     description: "Cross-provider empirical study on how reasoning modes alter ambiguity-sensitive behavior in frontier LLMs. Direct implications for safe deployment of LLM agents.",
     tags: ["LLM Safety", "Empirical Study", "Agent Behavior"],
   },
