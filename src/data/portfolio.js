@@ -47,7 +47,7 @@ export const experience = [
       "Designing and deploying MCP-integrated agentic AI systems for large-scale enterprise operations: multi-source retrieval, intelligent lookup, and context-aware responses across complex internal data",
       "Architecting production RAG pipelines integrating heterogeneous data sources via Model Context Protocol (MCP), forming the backbone of an enterprise-grade AI assistant",
       "Developed and open-sourced chunking-strategy demonstrating 40–60% retrieval accuracy improvement via semantic-aware segmentation; adopted externally by startups",
-      "Filed invention disclosure: 'Predictive Context Degradation in LLM Agents' (pending USPTO)",
+      "Filed 2 invention disclosures at Red Hat: 'Uncertainty-Type-Aware Runtime Control for LLM Agent Systems' and 'Predictive Context Degradation in LLM Agents' (pending USPTO)",
     ],
     stack: ["LangChain", "LangGraph", "Vertex AI", "pgvector", "MCP", "React", "FastAPI", "Python"],
   },
