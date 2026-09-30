@@ -62,7 +62,7 @@ function ParticleField() {
 const stat = (v, l) => ({ value: v, label: l });
 const STATS = [
   stat('12+', 'Years Experience'),
-  stat('9', 'Patents Filed'),
+  stat('10', 'Patents Filed'),
   stat('26K+', 'Medium Reads'),
   stat('30+', 'Articles Written'),
 ];
@@ -124,13 +124,13 @@ export default function Hero() {
               serving enterprise operations. At Cohesity I led a team of 8 engineers to deliver the
               company's first customer-facing GenAI product, cutting detection time by{' '}
               <strong style={{ color:'#38bdf8' }}>87%</strong>.
-              Inventor on <strong style={{ color:'#38bdf8' }}>9 patents</strong>, international
-              conference speaker, and builder of{' '}
-              <a href="https://antardarshan.org" target="_blank" rel="noopener noreferrer"
+              Inventor on <strong style={{ color:'#38bdf8' }}>10 patents</strong>, international
+              conference speaker, and creator of{' '}
+              <a href="https://getrunkite.github.io/runkite/" target="_blank" rel="noopener noreferrer"
                 style={{ color:'#c084fc', textDecoration:'none', fontWeight:600 }}>
-                AntarDarshan
+                Runkite
               </a>
-              {' '}— a production AI system live at scale.
+              {' '}— an open-source AI agent orchestration platform.
             </motion.p>
 
             {/* Stats */}

@@ -67,6 +67,16 @@ export default function OpenSource() {
                   >
                     <FiPackage size={15} />
                   </a>
+                  {pkg.demo && (
+                    <a href={pkg.demo} target="_blank" rel="noopener noreferrer"
+                      style={{ width: 34, height: 34, display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: 8, color: '#64748b', transition: 'all 0.2s', textDecoration: 'none' }}
+                      title="Live Demo"
+                      onMouseEnter={e => { e.currentTarget.style.color = '#c084fc'; e.currentTarget.style.borderColor = 'rgba(192,132,252,0.3)'; }}
+                      onMouseLeave={e => { e.currentTarget.style.color = '#64748b'; e.currentTarget.style.borderColor = 'rgba(255,255,255,0.1)'; }}
+                    >
+                      <FiExternalLink size={15} />
+                    </a>
+                  )}
                 </div>
               </div>
 

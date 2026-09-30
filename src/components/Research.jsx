@@ -115,38 +115,6 @@ export default function Research() {
         </div>
       </div>
 
-      {/* NeurIPS - subtle mention */}
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={inView ? { opacity: 1, y: 0 } : {}}
-        transition={{ duration: 0.5, delay: 0.3 }}
-        style={{
-          background: 'rgba(129,140,248,0.04)',
-          border: '1px solid rgba(129,140,248,0.12)',
-          borderRadius: 14, padding: '1.5rem 2rem',
-          marginBottom: '3rem',
-          display: 'flex', alignItems: 'center', gap: '1.5rem', flexWrap: 'wrap',
-        }}
-      >
-        <div style={{
-          width: 40, height: 40, borderRadius: 10, flexShrink: 0,
-          background: 'rgba(129,140,248,0.15)',
-          display: 'flex', alignItems: 'center', justifyContent: 'center',
-          fontSize: '1.2rem',
-        }}>🔬</div>
-        <div style={{ flex: 1 }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '0.3rem', flexWrap: 'wrap' }}>
-            <span style={{ fontWeight: 700, color: '#e2e8f0', fontSize: '0.95rem' }}>Active Research — NeurIPS 2026</span>
-            <span className="mono" style={{ fontSize: '0.68rem', color: '#818cf8', background: 'rgba(129,140,248,0.12)', border: '1px solid rgba(129,140,248,0.2)', padding: '0.1rem 0.5rem', borderRadius: 4 }}>
-              Under Review
-            </span>
-          </div>
-          <p style={{ fontSize: '0.85rem', color: '#64748b', lineHeight: 1.6 }}>
-            Two papers submitted on LLM behavioral evaluation under uncertainty (AmbiguityBench) and
-            cross-provider reasoning mode analysis — grounding production agent design in rigorous empirical research.
-          </p>
-        </div>
-      </motion.div>
 
       {/* Patents */}
       <h3 style={{ fontSize: '1.1rem', fontWeight: 700, color: '#e2e8f0', marginBottom: '1.25rem', display: 'flex', alignItems: 'center', gap: '0.6rem' }}>

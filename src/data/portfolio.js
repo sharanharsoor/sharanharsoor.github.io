@@ -106,8 +106,8 @@ export const patents = [
   { title: "Artificial Intelligence Chatbot for Data Platform Security Analysis", number: "US20250284800A1", status: "Filed Nov 2024", company: "Cohesity" },
   { title: "Actionable AI Bot for Data Security Correlations", number: "US20250335583A1", status: "Filed Apr 2024", company: "Cohesity" },
   { title: "Recovery of Compromised Snapshots", number: "US20260064844A1", status: "Filed Aug 2024", company: "Cohesity" },
-  { title: "4 additional patents in Generative AI and Security domains", number: null, status: "Pending USPTO", company: "Cohesity" },
-  { title: "Predictive Context Degradation: Multi Signal Trajectory Analysis for Proactive Context Management in LLM Agents", number: null, status: "Filing Approved", company: "Red Hat" },
+  { title: "Uncertainty-Type-Aware Runtime Control for LLM Agent Systems", number: null, status: "Filing Approved", company: "Red Hat" },
+  { title: "5 additional invention disclosures in Generative AI, LLM Agents, and Security domains", number: null, status: "Pending USPTO", company: "Cohesity & Red Hat" },
 ];
 
 export const publications = [
@@ -146,7 +146,7 @@ export const talks = [
     result: "Topic-aware memory compression for production LLM agents",
     link: null,
     youtube: null,
-    library: "llm-smartmem",
+    library: null,
   },
 ];
 
@@ -156,18 +156,10 @@ export const openSource = [
     pip: "pip install chunking-strategy",
     github: "https://github.com/sharanharsoor/chunking",
     pypi: "https://pypi.org/project/chunking-strategy/",
-    description: "Production-grade semantic text chunking with thread-safe parallel processing, streaming pipelines for large files, and adaptive retrieval feedback loops.",
+    demo: "https://sharanharsoor.github.io/chunking/",
+    description: "Production-grade semantic text chunking with thread-safe parallel processing, streaming pipelines for large files, and adaptive retrieval feedback loops. Includes interactive visualization tool.",
     tags: ["RAG", "Python", "NLP", "Production"],
     highlight: "Adopted by startups in production. Demonstrated 40–60% RAG accuracy improvement at DevConf.IN 2026.",
-  },
-  {
-    name: "llm-smartmem",
-    pip: "pip install llm-smartmem",
-    github: "https://github.com/sharanharsoor/llm-smartmem",
-    pypi: "https://pypi.org/project/llm-smartmem/",
-    description: "Smart memory management for LLM conversations in agentic production systems. Topic-aware compression that adapts as conversations evolve.",
-    tags: ["Agents", "Memory", "LLMs", "Python"],
-    highlight: "Selected for DevConf.CZ 2026 talk on production LLM memory systems.",
   },
 ];
 
@@ -202,10 +194,20 @@ export const education = [
 
 export const projects = [
   {
+    name: "Runkite",
+    tagline: "Open-Source AI Agent Orchestration Platform",
+    description: "Self-hosted, framework-agnostic agent control plane for LangGraph, CrewAI, and custom agentic workflows. Provides unified orchestration, state management, and monitoring without vendor lock-in, designed for production deployment of multi-agent systems at scale.",
+    link: "https://getrunkite.github.io/runkite/",
+    github: "https://github.com/getrunkite/runkite",
+    stats: ["Framework-agnostic", "Self-hosted", "Production-ready", "Open source"],
+    stack: ["Python", "LangGraph", "CrewAI", "Agent Orchestration", "State Management", "Monitoring"],
+    highlight: "Built to solve vendor lock-in for agent orchestration — works with any framework.",
+  },
+  {
     name: "AntarDarshan",
     tagline: "Inner Vision Through Ancient Wisdom",
-    description: "Production RAG system over 54 classical Indian philosophy texts — Upanishads, Bhagavad Gita, Mahabharata, Pali Canon, and more. Citation-grounded answers, reading library, highlights, bookmarks, and a community wisdom wall.",
-    link: "https://antardarshan.org",
+    description: "Production RAG system over 54 classical Indian philosophy texts — Upanishads, Bhagavad Gita, Mahabharata, Pali Canon, and more. Citation-grounded answers, reading library, highlights, bookmarks, and a community wisdom wall. (Currently offline for maintenance)",
+    link: "https://github.com/sharanharsoor/antardarshan",
     github: "https://github.com/sharanharsoor/antardarshan",
     stats: ["54 texts", "20,369 chunks", "6 traditions", "92% retrieval eval", "600 tests"],
     stack: ["BGE-M3 (hybrid dense + sparse)", "Cross-Encoder Reranker", "Qdrant", "FastAPI", "Next.js", "Supabase", "LangFuse", "Hetzner + Vercel"],
@@ -214,6 +216,7 @@ export const projects = [
 ];
 
 export const awards = [
+  { title: "ET AI Hackathon Finalist", org: "Economic Times AI Hackathon (2nd Edition)", year: "2026", detail: "Finalist in nationwide AI hackathon competition" },
   { title: "Most Innovative Project", org: "Cohesity GenAI Hackathon", year: "2023", detail: "Winner for a Generative AI use case" },
   { title: "Performance Analytics Hackathon", org: "Citrix", year: "2020", detail: "Winner — Machine Learning category" },
   { title: "Intel IIEC Finalist", org: "Intel India", year: "2014", detail: "Professional Category — Smart Energy Grid Applications" },
