@@ -34,7 +34,7 @@ export default function Contact() {
             Let's build something
           </h2>
           <p style={{ fontSize: '1.05rem', color: '#64748b', lineHeight: 1.8, marginBottom: '3rem', maxWidth: 520, margin: '0 auto 3rem' }}>
-            Always happy to connect — whether it's a technical discussion, a collaboration,
+            Always happy to connect, whether it's a technical discussion, a collaboration,
             a speaking opportunity, or just exchanging ideas on where AI is heading.
           </p>
         </motion.div>

@@ -121,8 +121,8 @@ export default function Hero() {
               I build AI systems that ship to production and solve real problems at scale.
               At Red Hat I architect{' '}
               <strong style={{ color:'#e2e8f0' }}>agentic AI and RAG pipelines</strong>{' '}
-              serving enterprise operations. At Cohesity I led a team of 8 engineers to deliver the
-              company's first customer-facing GenAI product, cutting detection time by{' '}
+              serving enterprise operations. At Cohesity I delivered the company's first 
+              customer-facing GenAI product, cutting detection time by{' '}
               <strong style={{ color:'#38bdf8' }}>87%</strong>.
               Inventor on <strong style={{ color:'#38bdf8' }}>10 patents</strong>, international
               conference speaker, and creator of{' '}
@@ -130,7 +130,7 @@ export default function Hero() {
                 style={{ color:'#c084fc', textDecoration:'none', fontWeight:600 }}>
                 Runkite
               </a>
-              {' '}— an open-source AI agent orchestration platform.
+              , an open-source AI agent orchestration platform.
             </motion.p>
 
             {/* Stats */}

@@ -18,7 +18,7 @@ export default function OpenSource() {
         <SectionHeader
           badge="$ pip install"
           title="Open Source"
-          subtitle="Production-grade AI libraries I've built and shipped — adopted by startups globally."
+          subtitle="Production-grade AI libraries I've built and shipped, adopted by startups globally."
         />
 
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '1.5rem', marginBottom: '2.5rem' }} className="os-grid">

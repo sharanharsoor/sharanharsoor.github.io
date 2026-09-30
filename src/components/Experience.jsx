@@ -98,7 +98,7 @@ export default function Experience() {
         <SectionHeader
           badge="$ git log"
           title="Work Experience"
-          subtitle="From embedded systems to agentic AI — 12+ years of building things that matter."
+          subtitle="From embedded systems to agentic AI: 12+ years of building things that matter."
         />
         <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
           {experience.map((job, i) => (

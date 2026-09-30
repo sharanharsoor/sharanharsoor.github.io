@@ -20,7 +20,7 @@ export default function Writing() {
       <SectionHeader
         badge="$ cat articles.md"
         title="Technical Writing"
-        subtitle="Sharing what I build — RAG systems, agentic AI, LLM observability, and production ML."
+        subtitle="Sharing what I build: RAG systems, agentic AI, LLM observability, and production ML."
       />
 
       {/* Stats */}
