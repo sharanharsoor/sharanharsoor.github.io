@@ -204,6 +204,16 @@ export const projects = [
     highlight: "Built to solve vendor lock-in for agent orchestration. Works with any framework.",
   },
   {
+    name: "Chunking Strategy Library",
+    tagline: "Production-Grade Semantic Text Chunking with Interactive Visualization",
+    description: "Production-grade semantic text chunking with thread-safe parallel processing, streaming pipelines for large files, and adaptive retrieval feedback loops. Includes interactive visualization tool for comparing chunking strategies in real-time.",
+    link: "https://sharanharsoor.github.io/chunking/",
+    github: "https://github.com/sharanharsoor/chunking",
+    stats: ["40-60% accuracy gain", "Thread-safe", "Streaming", "Interactive viz", "PyPI package"],
+    stack: ["Python", "RAG", "NLP", "Semantic Chunking", "Visualization", "Production-ready"],
+    highlight: "Demonstrated 40-60% RAG accuracy improvement at DevConf.IN 2026. Adopted by startups in production.",
+  },
+  {
     name: "AntarDarshan",
     tagline: "Inner Vision Through Ancient Wisdom",
     description: "Production RAG system over 54 classical Indian philosophy texts including Upanishads, Bhagavad Gita, Mahabharata, Pali Canon, and more. Citation-grounded answers, reading library, highlights, bookmarks, and a community wisdom wall. (Currently offline for maintenance)",
